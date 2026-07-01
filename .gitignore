@@ -1,0 +1,42 @@
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Python cache/build files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# --- Environment variables / API keys (IMPORTANT) ---
+.env
+.env.*
+*.key
+secrets.py
+config_local.py
+
+# --- Generated output (charts, logs, data dumps) ---
+*.png
+*.jpg
+*.csv
+*.log
+logs/
+data/
+output/
+
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- OS/editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Backtest results / model files (optional, uncomment if large) ---
+# *.pkl
+# *.h5
